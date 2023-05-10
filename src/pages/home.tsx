@@ -17,7 +17,7 @@ export default function Home() {
           'lg:max-w-[450px] lg:items-start'
         )}
       >
-        <div
+        <h2
           className={cn(
             'font-barlowCondensed uppercase tracking-[2.7px]',
             'md:text-xl md:tracking-[3.4px]',
@@ -25,8 +25,8 @@ export default function Home() {
           )}
         >
           So, you want to travel to
-        </div>
-        <div
+        </h2>
+        <h1
           className={cn(
             'font-bellefair text-[80px] uppercase leading-[100px] text-white',
             'md:text-[150px] md:leading-[150px]',
@@ -34,8 +34,8 @@ export default function Home() {
           )}
         >
           Space
-        </div>
-        <div
+        </h1>
+        <p
           className={cn(
             'text-center font-barlow text-[15px] leading-[25px]',
             'md:text-base md:leading-[28px]',
@@ -46,7 +46,7 @@ export default function Home() {
           go to outer space and not hover kind of on the edge of it. Well sit
           back, and relax because we’ll give you a truly out of this world
           experience!
-        </div>
+        </p>
       </div>
 
       <Link

@@ -41,10 +41,9 @@ export default function Layout() {
       )}
     >
       <Navbar />
-      <main className='z-10 flex-1 px-6 md:px-0'>
+      <main className='z-10 flex-1 overflow-auto px-6 md:px-0'>
         <Outlet />
       </main>
-      <TailwindIndicator />
     </div>
   )
 }

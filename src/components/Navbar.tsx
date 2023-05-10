@@ -41,7 +41,7 @@ export default function Navbar() {
       >
         <div
           className={cn(
-            'absolute right-full top-1/2 hidden h-[1px] w-[473px] -translate-y-1/2 translate-x-4 bg-white',
+            'absolute right-full top-1/2 hidden h-px w-[473px] -translate-y-1/2 translate-x-4 bg-white',
             'lg:block'
           )}
         ></div>
@@ -52,7 +52,7 @@ export default function Navbar() {
                 to={item.href}
                 className={cn(
                   `cursor-pointer pb-[39px] font-barlowCondensed text-sm tracking-[2.36px] transition duration-300 ease-in-out`,
-                  `hover:border-b-2 hover:border-primary hover:text-primary`,
+                  `hover:border-b-2 hover:border-primary/50 hover:text-primary`,
                   `lg:text-base lg:tracking-[2.7px]`,
                   `${path === item.href ? 'border-b-2 border-white' : ''}`
                 )}

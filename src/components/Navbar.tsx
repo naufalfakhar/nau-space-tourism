@@ -26,7 +26,7 @@ export default function Navbar() {
     >
       <Link to='/'>
         <img
-          src='/src/assets/shared/logo.svg'
+          src='/shared/logo.svg'
           alt='logo'
           className='md:pl-[39px] lg:pl-[55px]'
         />
@@ -70,11 +70,11 @@ export default function Navbar() {
       <div className='z-50 md:hidden'>
         {showMobileMenu ? (
           <button type='button' onClick={() => setShowMobileMenu(false)}>
-            <img src='/src/assets/shared/icon-close.svg' alt='logo' />
+            <img src='/shared/icon-close.svg' alt='logo' />
           </button>
         ) : (
           <button type='button' onClick={() => setShowMobileMenu(true)}>
-            <img src='/src/assets/shared/icon-hamburger.svg' alt='logo' />
+            <img src='/shared/icon-hamburger.svg' alt='logo' />
           </button>
         )}
       </div>

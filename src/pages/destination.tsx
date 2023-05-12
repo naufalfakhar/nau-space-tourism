@@ -12,7 +12,7 @@ export default function Destination() {
   return (
     <div
       className={cn(
-        'container flex h-full flex-col items-center text-white',
+        'container flex h-full flex-col items-center px-6 text-white',
         'md:p-10',
         '2xl:mx-auto 2xl:max-w-6xl 2xl:p-0'
       )}
@@ -21,7 +21,7 @@ export default function Destination() {
         className={cn(
           'mt-0.5 font-barlowCondensed uppercase tracking-[2.7px]',
           'md:mt-10 md:self-start md:text-xl md:tracking-[3.38px]',
-          '2xl:mt-[76px]'
+          'tracking-[4.72px] 2xl:mt-[76px] 2xl:text-[28px]'
         )}
       >
         <span className='pr-[18px] font-bold opacity-25'>01</span> pick your

@@ -1,4 +1,3 @@
-import { TailwindIndicator } from './TailwindIndicator'
 import { cn } from '@/lib/utils'
 import Navbar from '@/components/Navbar'
 import { Outlet, useLocation } from 'react-router-dom'

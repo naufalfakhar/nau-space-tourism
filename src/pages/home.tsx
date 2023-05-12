@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div
       className={cn(
-        'container flex h-full flex-col items-center gap-y-[81px] pb-12 pt-6 text-white',
+        'container flex h-full flex-col items-center gap-y-[81px] px-6 pb-12 pt-6 text-white',
         'md:px-[159px] md:pt-[106px]',
         'lg:flex-row lg:items-end lg:gap-[386px] lg:px-[165px] lg:pb-[131px] lg:pt-[251px]'
       )}

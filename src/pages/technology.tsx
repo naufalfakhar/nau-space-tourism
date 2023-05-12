@@ -17,7 +17,7 @@ export default function Technology() {
         '2xl:mx-auto 2xl:max-w-6xl 2xl:items-start 2xl:p-0'
       )}
     >
-      <div
+      <h1
         className={cn(
           'mt-0.5 font-barlowCondensed uppercase tracking-[2.7px]',
           'md:mt-10 md:self-start md:px-10 md:text-xl md:tracking-[3.38px]',
@@ -26,7 +26,7 @@ export default function Technology() {
       >
         <span className='pr-[18px] font-bold opacity-25'>03</span> space launch
         101
-      </div>
+      </h1>
 
       <div
         className={cn('flex flex-col', '2xl:mt-[26px] 2xl:flex-row-reverse')}
@@ -90,7 +90,7 @@ export default function Technology() {
               '2xl:max-w-[470px] 2xl:items-start'
             )}
           >
-            <div
+            <h3
               className={cn(
                 'mt-[26px] font-barlowCondensed text-sm uppercase tracking-[2.36px] text-primary',
                 'md:mt-11 md:tracking-[2.7px]',
@@ -98,8 +98,8 @@ export default function Technology() {
               )}
             >
               the terminology...
-            </div>
-            <div
+            </h3>
+            <h2
               className={cn(
                 'mt-2 font-bellefair text-2xl uppercase',
                 'md:text-[40px]',
@@ -107,8 +107,8 @@ export default function Technology() {
               )}
             >
               {currentTechnology?.name}
-            </div>
-            <div
+            </h2>
+            <p
               className={cn(
                 'mt-4 max-w-[327px] text-center font-barlow text-[15px] leading-[25px] text-primary',
                 'md:max-w-[600px] md:text-base md:leading-[28px]',
@@ -116,7 +116,7 @@ export default function Technology() {
               )}
             >
               {currentTechnology?.description}
-            </div>
+            </p>
           </div>
         </div>
       </div>

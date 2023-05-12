@@ -17,7 +17,7 @@ export default function Destination() {
         '2xl:mx-auto 2xl:max-w-6xl 2xl:p-0'
       )}
     >
-      <div
+      <h1
         className={cn(
           'mt-0.5 font-barlowCondensed uppercase tracking-[2.7px]',
           'md:mt-10 md:self-start md:text-xl md:tracking-[3.38px]',
@@ -26,7 +26,7 @@ export default function Destination() {
       >
         <span className='pr-[18px] font-bold opacity-25'>01</span> pick your
         destination
-      </div>
+      </h1>
 
       <div
         className={cn(
@@ -79,7 +79,7 @@ export default function Destination() {
                 ))}
               </ul>
             </nav>
-            <div
+            <h2
               className={cn(
                 'mt-4 font-bellefair text-[56px] uppercase',
                 'md:mt-8 md:text-[80px]',
@@ -87,7 +87,7 @@ export default function Destination() {
               )}
             >
               {currentDestination?.name}
-            </div>
+            </h2>
             <p
               className={cn(
                 'mb-8 border-b-[1px] border-[#383B4B] pb-8 text-center font-barlow text-[15px] leading-[25px] text-primary',
@@ -111,12 +111,12 @@ export default function Destination() {
                 '2xl:items-start'
               )}
             >
-              <div className='font-barlowCondensed text-sm tracking-[2.36px] text-primary'>
+              <h3 className='font-barlowCondensed text-sm tracking-[2.36px] text-primary'>
                 avg. distance
-              </div>
-              <div className='font-bellefair text-[28px]'>
+              </h3>
+              <h4 className='font-bellefair text-[28px]'>
                 {currentDestination?.distance}
-              </div>
+              </h4>
             </div>
             <div
               className={cn(
@@ -124,12 +124,12 @@ export default function Destination() {
                 '2xl:items-start'
               )}
             >
-              <div className='font-barlowCondensed text-sm tracking-[2.36px] text-primary'>
+              <h3 className='font-barlowCondensed text-sm tracking-[2.36px] text-primary'>
                 est. travel time
-              </div>
-              <div className='font-bellefair text-[28px]'>
+              </h3>
+              <h4 className='font-bellefair text-[28px]'>
                 {currentDestination?.travel}
-              </div>
+              </h4>
             </div>
           </div>
         </div>

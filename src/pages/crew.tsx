@@ -17,7 +17,7 @@ export default function Crew() {
         '2xl:mx-auto 2xl:max-w-6xl 2xl:p-0'
       )}
     >
-      <div
+      <h1
         className={cn(
           'mt-0.5 font-barlowCondensed uppercase tracking-[2.7px]',
           'md:mt-10 md:self-start md:text-xl md:tracking-[3.38px]',
@@ -26,7 +26,7 @@ export default function Crew() {
       >
         <span className='pr-[18px] font-bold opacity-25'>02</span> meet your
         crew
-      </div>
+      </h1>
 
       <div
         className={cn(
@@ -85,7 +85,7 @@ export default function Crew() {
             </nav>
           </div>
           <div className={cn('flex flex-col items-center', '2xl:items-start')}>
-            <div
+            <h2
               className={cn(
                 'mt-8 font-bellefair uppercase opacity-50',
                 'md:mt-[60px] md:text-2xl',
@@ -93,8 +93,8 @@ export default function Crew() {
               )}
             >
               {currentCrew?.role}
-            </div>
-            <div
+            </h2>
+            <h2
               className={cn(
                 'mt-2 font-bellefair text-2xl uppercase',
                 'md:text-[40px]',
@@ -102,8 +102,8 @@ export default function Crew() {
               )}
             >
               {currentCrew?.name}
-            </div>
-            <div
+            </h2>
+            <p
               className={cn(
                 'mt-4 max-w-[327px] text-center font-barlow text-[15px] leading-[25px] text-primary',
                 'md:max-w-[600px] md:text-base md:leading-[28px]',
@@ -111,7 +111,7 @@ export default function Crew() {
               )}
             >
               {currentCrew?.bio}
-            </div>
+            </p>
           </div>
         </div>
       </div>
